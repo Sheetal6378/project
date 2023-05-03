@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+        <span class="clg_title1"><h3>COLLEGES IN INDIA</h3></span>
+
+        <div class="col-md-3 col-lg-3 filter-box hide-mobile" >
+            <section
+            class="search-filters cf-clg-filter box-card hidden"
+            id="search-filters"
+            style="height: 705px"
+        >
+            <div id="filters-top-cont" class="box-h">
+            <h3 class="search-filters-title" id="search-filters-title">
+                SEARCH FILTERS
+            
+            </h3>
+            <hr>
+            
+            </div>
+            <div class="filters-outer-cont">
+            <ul class="filter-container" id="filter-container">
+                <li class="state-filter full-expand" id="state-filter">
+                <div class="h6 text-uppercase">
+                    STATE
+                    <a id="clear-mobile-filter" class="clear-all" href="#">Clear</a>
+                
+                </div>
+                <div class="options" id="state-options">
+                    <div class="state-search-container">
+                    <span class="search-icon fa"></span
+                    ><input
+                        type="text"
+                        class="search form-control search-input"
+                        placeholder="Search State"
+                        onkeyup="myFunction()"
+                    />
+                    </div>
+                    <div
+                    class="preference cf-scroll mCustomScrollbar _mCS_1 mCS_no_scrollbar"
+                    >
+                    <div
+                        id="mCSB_1"
+                        class="mCustomScrollBox mCS-cf-scrollbar mCSB_vertical mCSB_inside"
+                        style="max-height: none"
+                        tabindex="0"
+                    >
+                        <div
+                        id="mCSB_1_container"
+                        class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y"
+                        style="position: relative; top: 0; left: 0"
+                        dir="ltr"
+                        >
+                        <ul class="list chkbx-sort-list">
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                
+                                class="chkbox-input"
+                                id="state0"
+                                name="state[]"
+                                value="Andhra Pradesh"
+                                /><label for="state0" class="chkbox-label"
+                                >Andhra Pradesh</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state1"
+                                name="state[]"
+                                value="Arunachal Pradesh"
+                                /><label for="state1" class="chkbox-label"
+                                >Arunachal Pradesh</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state2"
+                                name="state[]"
+                                value="Assam"
+                                /><label for="state2" class="chkbox-label"
+                                >Assam</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state3"
+                                name="state[]"
+                                value="Bihar"
+                                /><label for="state3" class="chkbox-label"
+                                >Bihar</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state4"
+                                name="state[]"
+                                value="Chandigarh"
+                                /><label for="state4" class="chkbox-label"
+                                >Chandigarh</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state5"
+                                name="state[]"
+                                value="Chhattisgarh"
+                                /><label for="state5" class="chkbox-label"
+                                >Chhattisgarh</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state6"
+                                name="state[]"
+                                value="Daman and Diu"
+                                /><label for="state6" class="chkbox-label"
+                                >Daman and Diu</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state7"
+                                name="state[]"
+                                value="Delhi"
+                                /><label for="state7" class="chkbox-label"
+                                >Delhi</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state8"
+                                name="state[]"
+                                value="Goa"
+                                /><label for="state8" class="chkbox-label"
+                                >Goa</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state9"
+                                name="state[]"
+                                value="Gujarat"
+                                /><label for="state9" class="chkbox-label"
+                                >Gujarat</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state10"
+                                name="state[]"
+                                value="Haryana"
+                                /><label for="state10" class="chkbox-label"
+                                >Haryana</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state11"
+                                name="state[]"
+                                value="Himachal Pradesh"
+                                /><label for="state11" class="chkbox-label"
+                                >Himachal Pradesh</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state12"
+                                name="state[]"
+                                value="Jammu and Kashmir"
+                                /><label for="state12" class="chkbox-label"
+                                >Jammu and Kashmir</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state13"
+                                name="state[]"
+                                value="Jharkhand"
+                                /><label for="state13" class="chkbox-label"
+                                >Jharkhand</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state14"
+                                name="state[]"
+                                value="Karnataka"
+                                /><label for="state14" class="chkbox-label"
+                                >Karnataka</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state15"
+                                name="state[]"
+                                value="Kerala"
+                                /><label for="state15" class="chkbox-label"
+                                >Kerala</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state16"
+                                name="state[]"
+                                value="Madhya Pradesh"
+                                /><label for="state16" class="chkbox-label"
+                                >Madhya Pradesh</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state17"
+                                name="state[]"
+                                value="Maharashtra"
+                                /><label for="state17" class="chkbox-label"
+                                >Maharashtra</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state18"
+                                name="state[]"
+                                value="Manipur"
+                                /><label for="state18" class="chkbox-label"
+                                >Manipur</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state19"
+                                name="state[]"
+                                value="Meghalaya"
+                                /><label for="state19" class="chkbox-label"
+                                >Meghalaya</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state20"
+                                name="state[]"
+                                value="Mizoram"
+                                /><label for="state20" class="chkbox-label"
+                                >Mizoram</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state21"
+                                name="state[]"
+                                value="Nagaland"
+                                /><label for="state21" class="chkbox-label"
+                                >Nagaland</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state22"
+                                name="state[]"
+                                value="Odisha"
+                                /><label for="state22" class="chkbox-label"
+                                >Odisha</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state23"
+                                name="state[]"
+                                value="Puducherry"
+                                /><label for="state23" class="chkbox-label"
+                                >Puducherry</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state24"
+                                name="state[]"
+                                value="Punjab"
+                                /><label for="state24" class="chkbox-label"
+                                >Punjab</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state25"
+                                name="state[]"
+                                value="Rajasthan"
+                                /><label for="state25" class="chkbox-label"
+                                >Rajasthan</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state26"
+                                name="state[]"
+                                value="Sikkim"
+                                /><label for="state26" class="chkbox-label"
+                                >Sikkim</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state27"
+                                name="state[]"
+                                value="Tamil Nadu"
+                                /><label for="state27" class="chkbox-label"
+                                >Tamil Nadu</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state28"
+                                name="state[]"
+                                value="Telangana"
+                                /><label for="state28" class="chkbox-label"
+                                >Telangana</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state29"
+                                name="state[]"
+                                value="Tripura"
+                                /><label for="state29" class="chkbox-label"
+                                >Tripura</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state30"
+                                name="state[]"
+                                value="Uttar Pradesh"
+                                /><label for="state30" class="chkbox-label"
+                                >Uttar Pradesh</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state31"
+                                name="state[]"
+                                value="Uttarakhand"
+                                /><label for="state31" class="chkbox-label"
+                                >Uttarakhand</label
+                                >
+                            </div>
+                            </li>
+                            <li class="chkbx-sort-item">
+                            <div class="custom-checkbox">
+                                <span class="fa chkbox-icon"></span
+                                ><input
+                                type="checkbox"
+                                class="chkbox-input"
+                                id="state32"
+                                name="state[]"
+                                value="West Bengal"
+                                /><label for="state32" class="chkbox-label"
+                                >West Bengal</label
+                                >
+                            </div>
+                            </li>
+                        </ul>
+                        </div>
+                        <div
+                        id="mCSB_1_scrollbar_vertical"
+                        class="mCSB_scrollTools mCSB_1_scrollbar mCS-cf-scrollbar mCSB_scrollTools_vertical"
+                        style="display: none"
+                        >
+                        <div class="mCSB_draggerContainer">
+                            <div
+                            id="mCSB_1_dragger_vertical"
+                            class="mCSB_dragger"
+                            style="
+                                position: absolute;
+                                min-height: 30px;
+                                top: 0px;
+                                display: block;
+                                height: 30px;
+                                max-height: 165px;
+                            "
+                            >
+                            <div
+                                class="mCSB_dragger_bar"
+                                style="line-height: 30px"
+                            ></div>
+                            <div class="mCSB_draggerRail"></div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </li>
+                
+                    
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </li>
+            </ul>
+            </div>
+        </section>
+        </div>
+        <!-- colleges -->
+        
+
+        <div class="main_block"></div>
+        <div class="filter"><button class="filter-btn">Filter</button></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
