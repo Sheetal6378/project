@@ -1,0 +1,763 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "din",sans-serif;
+}
+.navbar{
+    display: flex;
+    height: 40px;
+    font-size: smaller;
+}
+.nav-list{
+    display: flex;
+    width: 100%;
+    background-color: #202938;
+    align-items: center;
+    
+}
+.nav-list li{
+    list-style: none;
+    
+
+}
+.nav-list li a{
+    text-decoration: none;
+    padding: 26px 30px;
+    color: #9f9191
+}
+.nav-list li a:hover{
+    color: rgb(101, 150, 214);
+}
+.navbar-another{
+    display: flex;
+                
+}
+.nav-list-another{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    top: 0;
+    cursor: pointer;
+    padding-left: 510px;
+
+}
+.nav-list-another li{
+    list-style: none;
+    text-align: right;                    
+}
+.logo-content1{
+    padding-left: 10px;
+    margin-top: 20px;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: serif;
+    color: rgb(29, 33, 59);
+
+}
+.logo_con1{
+    padding-top: 36px;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(252, 137, 6, 0.938);
+}
+.nav-list-another li a{
+    text-decoration: none;
+    padding: 26px 20px;
+    
+    color: rgb(20, 27, 39);
+    
+    font-size: 20px;
+    font-weight: 600;
+    
+
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+    padding-left: 10px;
+}
+
+
+
+
+
+.background_firstSection{
+    animation: animate 20s infinite;
+    background-size: cover;
+    background-blend-mode:screen;
+}
+@keyframes animate{
+    0%{
+        background-image: url(AIIMSbhopal.jpg);
+        
+    }
+    25%{
+        background-image: url(AIIMSbhopal.jpg);
+    }
+    25.01%{
+        background-image: url(AIIMSdelhi.jpg);
+    }
+    50%{
+        background-image: url(AIIMSdelhi.jpg);
+    }
+    50.01%{
+        background-image: url(AIIMSbhubaneswar.jpg);
+    }
+    75%{
+        background-image: url(AIIMSbhubaneswar.jpg);
+    }
+    75.01%{
+        background-image: url(AIIMSbhopal.jpg);
+    }
+    100%{
+        background-image: url(AIIMSbhopal.jpg);
+    }
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1550px;
+    height: 650px;
+}    
+.firstSection{
+    height: 650px;
+}
+.search-container{
+    width: 900px; 
+    height: 450px;
+    text-align: center;
+    padding-top: 140px;
+
+}
+.search_content_wrapper{
+    
+    width: 800px;
+    height: 255px;
+}
+.search-title{
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-size: 44px;
+    font-weight: 400px;
+    color: #172c4b;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+.search-wrapper{
+    height: 160px;
+}
+.search_main_container{
+    width: 530px;
+    height: 55px;
+}
+.search_input{
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    width: 800px;
+    height: 22px;
+}
+.search_modifier{
+    height: 95px;
+}
+.modifier_title{
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: ghostwhite;
+
+}
+.search_input{
+    border-radius: 50px;
+    background-color:#d3c2c2;
+    padding-left: 40px;
+    padding-top: 15px;
+    border: 2px solid #575756;
+    transition: all 250ms ease-in-out;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    
+}
+.search_input::placeholder{
+    letter-spacing: 1.5px;
+}
+.search_input:hover,:focus{
+    
+            padding: 12px 0;
+            outline: 0;
+            border: 1px solid transparent;
+            border-bottom: 1px solid #575756;
+            border-radius: 0;
+            background-position: 100% center;
+        
+}
+.row{
+    text-align: center;
+    text-decoration: none;
+}
+.heading{
+    height: 80px;
+    margin-top: 30px;
+}
+.heading-title{
+    font-size: 35px;
+    color: rgb(26, 26, 59);
+}
+.row2{
+    text-align: center;
+    text-decoration: none;
+}
+.heading2{
+    height: 80px;
+    margin-top: 30px;
+}
+.heading2-title{
+    font-size: 35px;
+    color: rgb(26, 26, 59);
+    text-align-last: center;
+    justify-content: center;
+}
+.clg-nav li{
+    list-style: none;
+}
+.clg-nav li a{
+    text-decoration: none;
+    color: rgb(26, 26, 59);;
+}
+.text-box a{
+    text-decoration: none;
+    color: rgb(26, 26, 59);
+}
+.examtext{
+    text-decoration: none;
+    color: rgb(26, 26, 59);
+}
+.exam-text{
+    cursor: none;
+}
+.exam-detail:hover{
+    color: rgb(101, 150, 214);
+}
+.clg-nav li a:hover{
+    color: rgb(101, 150, 214);
+}
+.clg-list{
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    gap: 100px;
+    font-family: sans-serif;
+    
+}
+.college{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    
+}
+.exam-list{
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    gap: 100px;
+    font-family: sans-serif;
+}
+.exam{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+.top-colleges{
+    background: whitesmoke;
+}
+.top-exams{
+    background: rgb(243 230 230);
+}
+.responsive {
+    width: 100%;
+    height: 350px;
+    margin-top: 30px;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.footer-menu{
+    display: flex;
+    background-color: #202938;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+   
+   
+
+}
+.footer-bottom2{
+    display: flex;
+    background-color: #323c4f;
+    height: 80px;
+    padding-left: 600px;
+    padding-right: 40px;
+    padding-top: 20px;
+   
+
+}
+.footer-bottom1{
+    display: flex;
+    background-color: #202938;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 50px;
+    align-items: center;
+
+}
+.footer-content{
+    opacity: 0.2;
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: right;
+    padding-left: 570px;
+
+}
+.footer-list{
+    display: flex;
+    width: 100%;
+    background-color: #202938;
+    align-items: center;
+    
+}
+.footer-list li{
+    list-style: none;
+    
+
+}
+.footer-list li a{
+    text-decoration: none;
+    padding: 26px 30px;
+    color: #9f9191
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+.fa:hover {
+    opacity: 0.7;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    width: 10px;
+    height: 10px;
+  }
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    width: 10px;
+    height: 10px;
+  }
+ .fa-linkedin{
+     background:#007bb5;
+     color: white;
+     width: 10px;
+    height: 10px;
+ } 
+ .fa-instagram{
+     background:#125688;
+     color: white;
+     width: 10px;
+    height: 10px;
+ }
+ .logo-content{
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: serif;
+    color: #3B5998;
+ }
+ .logo_con{
+    padding-top: 8px;
+    opacity: 0.6;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(252, 137, 6, 0.938);
+    
+ }
+ * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar,
+        .footer-menu {
+            background-color: #202938;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 1em;
+            width: 100vw;
+        }
+
+        @media(max-width:359px) {
+
+            .navbar,
+            .footer-menu {
+                font-size: 0.5em;
+            }
+
+            .navbar li a,
+            .footer-menu li a {
+                padding: 0.7em 2em;
+                margin-left: 3em;
+            }
+        }
+
+        .navbar ul,
+        .footer-menu ul {
+            overflow: auto;
+            margin-left: 1vw;
+        }
+
+        .navbar li,
+        .footer-menu li {
+            float: left;
+            list-style: none;
+        }
+
+        .navbar li a,
+        .footer-menu li a {
+            float: left;
+            list-style: none;
+            padding: 0.5em 1em;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+        .navbar li a:hover,
+        .footer-menu li a:hover {
+            color: rgba(221, 14, 14, 0.534);
+        }
+
+        #humbruger {
+            box-sizing: border-box;
+            /* display: flex; */
+             margin-top: -1.59em; 
+            /* padding: 2px;  */
+            margin-left: 95vw;
+            font-size: 10px; 
+            transform: translate(-50%, -50%);
+            position: absolute;
+            width: 3em;
+        }
+
+        .center:before,
+        .center:after,
+        .center div {
+            background: #fff;
+            content: "";
+            display: block;
+            height: 3px;
+            border-radius: 3px;
+            margin: 7px 0;
+            transition: 0.5s;
+        }
+
+        .center:hover:before {
+            transform: translateY(12px) rotate(135deg);
+        }
+
+        .center:hover:after {
+            transform: translateY(-12px) rotate(-135deg);
+        }
+
+        .center:hover div {
+            transform: scale(0);
+        }
+
+        .background1 {
+            width: 100vw;
+            height: 35vw;
+            position: relative;
+            animation: animate 70s ease-in-out infinite;
+            background-size: cover;
+            background-blend-mode: screen;
+        }
+
+        @keyframes animate {
+            0% {
+                background-image: url(AIIMSbhubaneswar.jpg);
+
+            }
+
+            5% {
+                background-image: url(AIIMSbhubaneswar.jpg);
+            }
+
+            5.01% {
+                background-image: url(aiims-building.png);
+            }
+
+            25.01% {
+                background-image: url(AIIMSdelhi.jpg);
+            }
+
+            50% {
+                background-image: url(AIIMSbhubaneswar.jpg);
+            }
+
+            50.01% {
+                background-image: url(AIIMSdelhi.jpg);
+            }
+
+            75% {
+                background-image: url(AIIMSbhubaneswar.jpg);
+            }
+
+            75.01% {
+                background-image: url(aiims-building.png);
+            }
+
+            100% {
+                background-image: url(AIIMSbhubaneswar.jpg);
+            }
+        }
+
+        .logo {
+            margin: 0px;
+            margin-left: 2vw;
+            padding: 0px;
+        }
+
+        .logo-content1 {
+            padding-left: 7vw;
+            margin-top: -4.5vw;
+            font-size: 3vw;
+            font-weight: bolder;
+            font-family: serif;
+            color: rgb(29, 33, 59);
+
+        }
+
+        .logo_con1 {
+            padding-left: 27vw;
+            margin-top: -3.6vw;
+            font-family: cursive;
+            font-size: 2.5vw;
+            font-weight: 900;
+            font-style: italic;
+            color: rgba(252, 137, 6, 0.938);
+        }
+
+        .logo img {
+            width: 5.45vw;
+            height: 5vw;
+            margin-top: 1vw;
+            padding-left: 1vw;
+        }
+
+        .searchtitle {
+            font-size: 4vw;
+            font-family: cursive;
+            font-weight: bold;
+            margin-top: 3vw;
+            display: flex;
+            justify-content: center;
+        }
+
+        .search_container {
+            margin-top: 1vw;
+            display: flex;
+            justify-content: center;
+        }
+
+        .search_input {
+            width: 40vw;
+            height: 2.8vw;
+            font-size: 1.7vw;
+            border-radius: 30vw;
+            background-color: #d3c2c2;
+            padding-left: 20px;
+            border: 2px solid #575756;
+            transition: all 250ms ease-in-out;
+            backface-visibility: hidden;
+            transform-style: preserve-3d;
+
+        }
+
+        .search_input:hover,
+        :focus {
+            border: 1.5px solid #4c4c48;
+            border-radius: 0;
+            background-position: 100% center;
+
+        }
+        .modifier_title{
+            position: relative;
+            top: 5vw;
+            font-size:3vw ;
+            text-align: center;
+            font-family: serif;
+            color: ghostwhite;
+        }
+        .college {
+            position: relative;
+            margin: 0%;
+            padding: 0%;
+            width: 100vw;
+            background-color:ghostwhite;
+        }
+
+        .heading {
+            font-size: 1.6rem;
+            color: rgb(39, 73, 62);
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+        }
+        @media screen{
+            #top_college {
+                display: grid;
+                justify-content: center;
+                grid-gap: 3vw;
+                grid-template-columns: repeat(auto-fit,minmax(300px,1fr))
+            }
+        }
+
+        .top-clg {
+            background-color: ghostwhite;
+        }
+
+        .clg-box {
+            position: relative;
+            margin: 0;
+            background-color: ghostwhite;
+            /* border: 2px solid rgba(252, 137, 6, 0.938); */
+            border-radius: 20px;
+            padding: 20px 30px;
+            
+        }
+
+        .text-box {
+            font-size: 1.2rem;
+            
+        }
+
+        .clg-nav {
+            font-size: 1rem;
+            list-style:none;
+        }
+        .clg-nav li a{
+            text-decoration: none;
+        }
+
+        .img-box {
+            display: flex;
+            /* justify-content: center; */
+        }
+
+        @media screen{
+            #top_exam {
+                display: grid;
+                justify-content: center;
+                grid-gap: 4vw;
+                grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+            }
+        }
+        .top_exam {
+            background-color: whitesmoke;
+        }
+
+        .exam {
+            position: relative;
+            background-color: whitesmoke;
+            /* border: 2px solid rgba(126, 2, 2, 0.315); */
+            padding: 20px 20px;
+        }
+
+        .exam-detail {
+            font-size: 0.9rem;
+        }
+
+        .examtext {
+            text-decoration: none;
+            color: rgb(26, 26, 59);
+        }
+
+        .exam-text {
+            font-size: 0.7rem;
+            cursor: none;
+        }
+
+        .exam-detail:hover {
+            color: rgb(101, 150, 214);
+        }
+
+        #last_image {
+            /* border:2px solid white; */
+            width: 100vw;
+            height: 15vw;
+        }
+
+        .footer-bottom {
+            display: flex;
+            background-color: #202938;
+            width: 100vw;
+            height: 20;
+        }
+
+        .footer-content {
+            padding: 1px 0.5rem;
+            /* text-align:center; */
+            font-size: 10px;
+            font-weight: bold;
+            color: whitesmoke;
+            position: relative;
+            left: 20%;
+    /* justify-content: center; */
+        }
+
+        .logo-content11 {
+            padding-left: 1vw;
+            margin-top: 0.2vw;
+            font-size: 2vw;
+            font-weight: bolder;
+            font-family: serif;
+            color: whitesmoke;
+
+        }
+
+        .logo_con11 {
+            padding-left: 14.5vw;
+            margin-top: -2.8vw;
+            font-family: cursive;
+            font-size: 2vw;
+            font-weight: 900;
+            font-style: italic;
+            color: rgba(252, 137, 6, 0.938);
+        }
